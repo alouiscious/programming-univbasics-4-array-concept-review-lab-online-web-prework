@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
   if array.index(value_to_find) == true
     p index
   else
-    puts "There is no array element at that value."
+    puts "There is no #{value_to_find} array element at that value."
   end
 
 
