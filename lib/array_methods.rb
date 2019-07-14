@@ -11,7 +11,7 @@ end
 def find_max_value(array)
   # Add your solution here
   array.sort(array)
-  return array.last
+  return array.last(array)
 end
 
 def find_min_value(array)
