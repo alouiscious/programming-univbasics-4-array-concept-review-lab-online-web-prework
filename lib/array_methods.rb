@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  find_array = [17, 7, 8, 14, 64,]
-  index = array.index(find_array, 14)
+  # find_array = [17, 7, 8, 14, 64,]
+  index = array.index
   return index
 
 end
