@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
+  index = array.index(value_to_find).to_i
   if array.index(value_to_find) == true
-    index = array.index(value_to_find).to_i
     return index
   else
     puts "There is no array element at that value."
