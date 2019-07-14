@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   index = array.index(value_to_find).to_i
   return index
   if array.index(value_to_find) == true
-    return index
+    p index
   else
     puts "There is no array element at that value."
   end
