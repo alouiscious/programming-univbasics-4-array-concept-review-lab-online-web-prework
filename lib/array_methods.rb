@@ -1,11 +1,9 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  if value_to_find != true
-    false
-  else
+  
     index = array.index(value_to_find).to_i
     return index
-  end
+  
 
 
 end
