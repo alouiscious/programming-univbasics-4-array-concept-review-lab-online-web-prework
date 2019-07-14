@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  if index = array.index(value_to_find).to_i > 0 ? return index : false
+  index = array.index(value_to_find).to_i > 0 ? return index : false
 
 end
 
