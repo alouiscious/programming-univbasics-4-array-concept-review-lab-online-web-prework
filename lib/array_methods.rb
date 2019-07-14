@@ -1,10 +1,8 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  index = array.index(value_to_find).to_i
-  return index
-
   while array.include?(value_to_find)
-    p index
+    index = array.index(value_to_find).to_i
+    return index
   else
     puts "There is no #{value_to_find} array element at that value."
   end
