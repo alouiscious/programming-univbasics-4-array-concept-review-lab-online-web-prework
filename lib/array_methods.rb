@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-
-  array.index(array, value_to_find)
-  return array.index
+  find_array = [1, 2, 3, 4, 5, 6, 7]
+  find.index(find_array, 6)
+  p findindex
 
 end
 
